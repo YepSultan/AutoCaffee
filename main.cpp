@@ -8,12 +8,6 @@ using namespace std;
 #define nl endl
 
 
-string fullnames, id, times, bar, menu; 
-int age;
-int start {0};
-int end_s {2};
-
-
 
 class BaseBase {
 public:
@@ -24,24 +18,28 @@ public:
 
 
 class Booking {
+private:
+
+	string fullnames, id, times, bar, menu; 
+	int age;
+
+
 public:
-	void getNames(){
-
-		out << "Welcome to AutoCoffee!" << nl;
-		out << "Please follow the instruction: " << nl;
-
+	void getOrder(){
 		out << "Enter your fullnam: ";
 		getline(cin, fullnames);
 		out << "What's your order?: ";
 		in >> age;
-		start ++;
+		in.ignore();
 		out << fullnames << " | " << "Order: "<< age << nl;
 	}
 };
-
+ 
 int main(int argc, char const *argv[])
 {
-	Booking bk;
-	bk.getNames();
+	Booking b1;
+	Booking b2;
+	b1.getOrder();
+	b2.getOrder();
 	return 0;
 }
