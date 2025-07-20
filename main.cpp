@@ -37,9 +37,12 @@ public:
  
 int main(int argc, char const *argv[])
 {
+
 	Booking b1;
 	Booking b2;
+	Booking b3;
 	b1.getOrder();
 	b2.getOrder();
+	b3.getOrder();
 	return 0;
 }
