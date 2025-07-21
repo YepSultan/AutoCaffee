@@ -27,6 +27,19 @@ private:
 public:
 	void getOrder(){
 	
+	out << nl;
+	out << "---  Menu ---" << nl;
+	out << "1. Iced Latte " << nl;
+	out << "2. Thai Coffee" << nl;
+	out << "3. Limonade " << nl;
+	out << "4. Expresso " << nl;
+	out << "5. Milk-Chocko " << nl;
+
+	out << "Enter your fullnam: ";
+	getline(cin, fullnames);
+	out << "What's your order?: ";
+	in >> orderCode;
+	in.ignore();
 
 	switch(orderCode) 
 	{
@@ -37,17 +50,7 @@ public:
 		case 5: drink = "Milk-Chocko"; break;
 
 	}
-
-
-
-
-
-		out << "Enter your fullnam: ";
-		getline(cin, fullnames);
-		out << "What's your order?: ";
-		in >> orderCode;
-		in.ignore();
-		out << fullnames << " | " << "Order: "<< orderCode << nl;
+	out << fullnames << " | " << "Order: "<< drink << nl;
 	}
 };
  
@@ -57,14 +60,6 @@ int main(int argc, char const *argv[])
 	string input, ordering;
 	ordering = "Yes";
 	Booking b1;
-	
-	out << nl;
-	out << "---  Menu ---" << nl;
-	out << "1. Iced Latte " << nl;
-	out << "2. Thai Coffee" << nl;
-	out << "3. Limonade " << nl;
-	out << "4. Expresso " << nl;
-	out << "5. Milk-Chocko " << nl;
 
 
 	out << "Wanna order something? [Yes/No]: ";
