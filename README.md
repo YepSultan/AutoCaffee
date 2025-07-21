@@ -5,7 +5,7 @@
 - [ ] add base
 - [ ] show base
 - [ ] add base-inf
-- [X] add base menu
+- [] add base menu
 - [X] show menu
 
 # DATE 21.07.2025
