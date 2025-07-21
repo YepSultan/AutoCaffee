@@ -5,7 +5,7 @@
 - [ ] add base
 - [ ] show base
 - [ ] add base-inf
-- [] add base menu
+- [ ] add base menu
 - [X] show menu
 
 # DATE 21.07.2025
@@ -18,8 +18,8 @@ so now it will be work clearly
 2. Cleaned-up "getOrder" function (now it looks more readable)
 3. Tested some and methods in "main" 
 
-<p style="color:red;>The only good news I am keep working and learning</p>
+- The only good news I am keep working and learning
 
 ### 18:30
 
-![Preview](assets/screen_01)
+![Preview](assets/screen_01.png)
