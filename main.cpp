@@ -50,7 +50,7 @@ public:
 		case 5: drink = "Milk-Chocko"; break;
 
 	}
-	out << fullnames << " | " << "Order: "<< drink << nl;
+	out << fullnames << " | " << " Order: "<< drink << nl;
 	}
 };
  
@@ -80,7 +80,7 @@ int main(int argc, char const *argv[])
 	{
 		out << nl;
 		out << "<<<<<<<----------------->>>>>>>" << nl;
-		out << "It's seems like u tryna do something else :/ " << nl;
+		out << "It's seems like u r for looking something else :/ " << nl;
 		out << "<<<<<<<----------------->>>>>>>" << nl;
 		out << nl;
 	}
