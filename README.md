@@ -1,0 +1,7 @@
+- [X] Registration 
+- [X] Separate name and full name
+- [ ] add base
+- [ ] show base
+- [ ] add base-inf
+- [ ] add base menu
+- [X] show menu
