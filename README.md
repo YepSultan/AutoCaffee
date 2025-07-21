@@ -22,8 +22,4 @@ so now it will be work clearly
 
 ### 18:30
 
-![getOrder Block](assets/screen_01.png)
-
-
-
-
+![Preview](./assets/screen_01.png)
