@@ -18,11 +18,11 @@ so now it will be work clearly
 2. Cleaned-up "getOrder" function (now it looks more readable)
 3. Tested some and methods in "main" 
 
-==The only good news I am keep working and learning==
+<p>The only good news I am keep working and learning</p>
 
 ### 18:30
 
-**Let's strat with that i did nothing special yeat. Keep learning how work with data-base in cpp*
+*Let's strat with that i did nothing special yeat. Keep learning how work with data-base in cpp*
 
 
 
