@@ -5,10 +5,25 @@
 - [ ] add base
 - [ ] show base
 - [ ] add base-inf
-- [ ] add base menu
+- [X] add base menu
 - [X] show menu
 
 # DATE 21.07.2025
 
-i switched "swicth" function with "in >> order code" 
+### 11:35
+i switched **"swicth"** function with **"in >> order code"** 
 so now it will be work clearly
+
+1. Using switch-case instead of "if-else" 
+2. Cleaned-up "getOrder" function (now it looks more readable)
+3. Tested some and methods in "main" 
+
+==The only good news I am keep working and learning==
+
+### 18:30
+
+**Let's strat with that i did nothing special yeat. Keep learning how work with data-base in cpp*
+
+
+
+
