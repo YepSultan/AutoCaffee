@@ -38,3 +38,4 @@ so now it will be work clearly
 1. created: orders.txt file
 2. file << fullnames << " | Orders: " << drink << "\n"
 
+![Preview2](assets/screen_02.png)
