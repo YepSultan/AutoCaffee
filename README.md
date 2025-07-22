@@ -29,4 +29,12 @@ so now it will be work clearly
 
 ### 23:30 
 
+#### FEATURES:
 - added small base using txt file
+- I have used: **"#include <fstream>"**
+
+##### New method in Booking class "saveToFile"
+
+1. created: orders.txt file
+2. file << fullnames << " | Orders: " << drink << "\n"
+

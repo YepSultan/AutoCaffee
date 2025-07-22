@@ -20,7 +20,7 @@ public:
 class Booking {
 private:
 
-	string fullnames, id, drink, bar, menu; ак
+	string fullnames, drink;
 	int orderCode;
 
 private:
@@ -58,6 +58,7 @@ public:
 
 	}
 	out << fullnames << " | " << " Order: "<< drink << nl;
+	saveToFile();
 	}
 };
  
