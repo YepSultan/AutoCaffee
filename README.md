@@ -2,7 +2,7 @@
 
 - [X] Registration 
 - [X] Separate name and full name
-- [ ] add base
+- [X] add base
 - [ ] show base
 - [ ] add base-inf
 - [ ] add base menu
@@ -23,3 +23,10 @@ so now it will be work clearly
 ### 18:30
 
 ![Preview](assets/screen_01.png)
+
+
+# DATE 22.07.2025
+
+### 23:30 
+
+- added small base using txt file
