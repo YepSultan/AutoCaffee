@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+#include <fstream>
 using namespace std;
 
 #define in cin
@@ -20,8 +20,15 @@ public:
 class Booking {
 private:
 
-	string fullnames, id, drink, bar, menu; 
+	string fullnames, id, drink, bar, menu; ак
 	int orderCode;
+
+private:
+	void saveToFile(){
+		std::ofstream file("orders.txt", std::ios::app);
+		file << fullnames << " | Order: " << drink << "\n";
+		file.close();
+	}
 
 
 public:
