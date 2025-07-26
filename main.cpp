@@ -8,15 +8,6 @@ using namespace std;
 #define nl endl
 
 
-
-class BaseBase {
-public:
-	void getData(){
-			
-	}
-};
-
-
 class Booking {
 private:
 
@@ -25,7 +16,7 @@ private:
 
 private:
 	void saveToFile(){
-		std::ofstream file("orders.txt", std::ios::app);
+		ofstream file("orders.txt", std::ios::trunc);
 		file << fullnames << " | Order: " << drink << "\n";
 		file.close();
 	}
