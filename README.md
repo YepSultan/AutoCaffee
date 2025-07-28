@@ -71,7 +71,7 @@
 ![Preview3](assets/screen_04.png)
 - Redesing
 - Created method `Booking::cleanTime()`
-	- Using `thread` to clean the order history 
+	- Used `thread` to clean the order history 
 
 ---
 ## 🧠 TECH STACK
