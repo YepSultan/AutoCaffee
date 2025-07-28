@@ -67,7 +67,11 @@
 ### 📅 28.07.2025
 
 #### ⏱️ 17:00
-
+📸 Screenshot:
+![Preview3](assets/screen_04.png)
+- Redesing
+- Created method `Booking::cleanTime()`
+	- Using `thread` to clean the order history 
 
 ---
 ## 🧠 TECH STACK
