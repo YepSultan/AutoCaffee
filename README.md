@@ -1,41 +1,85 @@
-# My mini plan
+# 🚀 AutoCaffee — Console Order System
 
-- [X] Registration 
-- [X] Separate name and full name
-- [X] add base
-- [ ] show base
-- [ ] add base-inf
-- [ ] add base menu
-- [X] show menu
+> Mini C++-based café order manager. No frills — just direct file handling and user input.  
+> ✅ Goal: Train file I/O, control flow, and structure under real mini-project conditions.
 
-# DATE 21.07.2025
+---
 
-### 11:35
-i switched **"swicth"** function with **"in >> order code"** 
-so now it will be work clearly
+## ✅ DONE
 
-1. Using switch-case instead of "if-else" 
-2. Cleaned-up "getOrder" function (now it looks more readable)
-3. Tested some and methods in "main" 
+- [x] Registration system
+- [x] Separated name vs full name logic
+- [x] Created text-based order database (`orders.txt`)
+- [x] Implemented `showMenu()` function
+- [x] Switched from if/else to `switch-case` control flow
+- [x] Cleaned up `getOrder()` function logic
 
-- The only good news I am keep working and learning
+---
 
-### 18:30
+## 🛠️ TODO
+
+- [ ] Implement base viewer (show saved orders)
+- [ ] Add function to modify base (append/edit)
+- [ ] Add menu editor (create/edit menu entries)
+
+---
+
+## 🗓️ PROGRESS LOG
+
+### 📅 21.07.2025
+
+#### ⏱️ 11:35
+- Replaced `if/else` with `switch-case` for input handling
+- Refactored `getOrder()` → more readable & scalable
+- Minor tests in `main()` passed
+
+> "Not perfect, but I’m **building, learning, and improving daily**."
+
+---
+
+#### ⏱️ 18:30  
+📸 Screenshot:
 
 ![Preview](assets/screen_01.png)
 
+---
 
-# DATE 22.07.2025
+### 📅 22.07.2025
 
-### 23:30 
+#### ⏱️ 23:30
 
-#### FEATURES:
-- added small base using txt file
-- I have used: **"#include <fstream>"**
+### 💡 NEW FEATURE: File-Based Save System
+- Added `#include <fstream>`
+- Created method `Booking::saveToFile()`  
+- Now saves:  
+  `Fullname | Orders: <drink>` → to `orders.txt`
 
-##### New method in Booking class "saveToFile"
+📂 Output: `orders.txt` (appending mode)
 
-1. created: orders.txt file
-2. file << fullnames << " | Orders: " << drink << "\n"
+📸 Screenshot:
 
 ![Preview2](assets/screen_02.png)
+
+---
+
+## 🧠 TECH STACK
+
+- C++ (Standard 17)
+- Console-based UI
+- File I/O via `<fstream>`
+
+---
+
+## 💬 NOTES
+- Code is under iterative refactoring
+- Focus on structure, not aesthetics
+- Next goals: Add date/time logging, auto menu loader from file, CLI param control
+
+---
+
+## 📌 AUTHOR:  
+Sultan - engineering student (self-dev)  
+Project start: `21.07.2025`
+
+---
+
