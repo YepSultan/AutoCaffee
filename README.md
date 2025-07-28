@@ -1,6 +1,6 @@
-![Preview](assets/screen_03.png)
-
 # 🚀 AutoCaffee — Console Order System
+
+![Preview](assets/screen_01.png)
 
 > Mini C++-based café order manager. No frills — just direct file handling and user input.  
 > ✅ Goal: Train file I/O, control flow, and structure under real mini-project conditions.
