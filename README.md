@@ -1,4 +1,5 @@
-![CaffeePic](assets/caffee_pic.jpg)
+![CaffeePic](assets/caffee_pic.png)
+
 # 🚀 AutoCaffee — Console Order System
 
 > Mini C++-based café order manager. No frills — just direct file handling and user input.  
