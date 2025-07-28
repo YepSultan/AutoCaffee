@@ -1,4 +1,4 @@
-![CaffeePic](assets/caffee_pic.png)
+![CaffeePic](assets/screen_03.png)
 
 # 🚀 AutoCaffee — Console Order System
 
