@@ -23,7 +23,7 @@
 - [ ] Implement base viewer (show saved orders)
 - [ ] Add function to modify base (append/edit)
 - [ ] Add menu editor (create/edit menu entries)
-
+- [ ] Deletion by time (Cleaning the data)
 ---
 
 ## 🗓️ PROGRESS LOG
@@ -64,6 +64,12 @@
 
 ---
 
+### 📅 28.07.2025
+
+#### ⏱️ 17:00
+
+
+---
 ## 🧠 TECH STACK
 
 - C++ (Standard 17)
