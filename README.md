@@ -101,6 +101,25 @@ private:
 
 ```
 
+- ifstream: `readFile.open("names.txt");`
+
+```cpp
+
+public:
+    void readTheFile(){
+	ifstream readFile;
+	readFile.open("orders.txt");
+
+	string line;
+
+	while (getline(readFile, line)){
+		cout << line << nl;
+	}
+
+	readFile.close();
+}
+
+```
 
 
 
