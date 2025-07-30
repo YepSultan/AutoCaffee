@@ -90,8 +90,11 @@ public:
 	}
 };
  
-int main(int argc, char const *argv[])
-{
+
+
+class Program {
+public:
+	void programStart(){
 
 	string input, ordering;
 	ordering = "Yes";
@@ -129,6 +132,17 @@ int main(int argc, char const *argv[])
 	Booking b2;
 	b2.requestFile();
 
+
+	}
+
+
+};
+
+int main(int argc, char const *argv[])
+{
+
+	Program prog;
+	prog.programStart();
 	return 0;
 
 }

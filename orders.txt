@@ -7,3 +7,4 @@ Sula | Order: Iced Latte
 Sula | Order: Limonade
 Dinara | Order: Limonade
 Sultan | Order: Milk-Chocko
+Sultan | Order: Expresso
