@@ -15,12 +15,12 @@
 - [x] Implemented `showMenu()` function
 - [x] Switched from if/else to `switch-case` control flow
 - [x] Cleaned up `getOrder()` function logic
+- [x] Implement base viewer (show saved orders)
 
 ---
 
 ## 🛠️ TODO
 
-- [ ] Implement base viewer (show saved orders)
 - [ ] Add function to modify base (append/edit)
 - [ ] Add menu editor (create/edit menu entries)
 - [ ] Deletion by time (Cleaning the data)
@@ -72,6 +72,30 @@
 - Redesing
 - Created method `Booking::cleanTime()`
 	- Used `thread` to clean the order history 
+
+---
+
+### 📅 30.07.2025
+
+#### ⏱️ 17:00
+
+!Succesfully completed `Implement base viewer`
+
+- Used methods/libs `fstream`
+
+| Read the file | Open / save to file |
+|---------------|---------------------|
+| ifstream      | ofstream            |
+|---------------|---------------------| 
+| yourV.open    | std::ios::app       |
+|---------------|---------------------|
+
+
+
+
+
+
+
 
 ---
 ## 🧠 TECH STACK
