@@ -9,6 +9,8 @@ using namespace std;
 #define out cout
 #define nl endl
 
+
+// Main Body
 class Booking {
 private:
 
@@ -21,15 +23,34 @@ private:
 		file << fullnames << " | Order: " << drink << "\n";
 		file.close();
 	}
-
 public:
-	void cleanTime(){
-		out << nl;
-		out << "Warning! cleaning order history..." << nl; 
-		std::this_thread::sleep_for(std::chrono::seconds(3));
-		ofstream cleanFile("orders.txt", std::ios::trunc);
-		out << "Finish!" << nl;
-		out << nl;
+	void readTheFile(){
+		ifstream readFile;
+		readFile.open("orders.txt");
+
+		string line;
+
+		while (getline(readFile, line)){
+			cout << line << nl;
+		}
+
+		readFile.close();
+	}
+public:
+	void requestFile(){
+		string answerUser;
+		out << "Show your orders? Yes/No: ";
+		in >> answerUser;
+
+		if (answerUser == "Yes"){
+			out << "Orders: " << nl;
+			out << nl;
+			readTheFile();
+			out << nl;
+		}
+		else{
+			out << "Error!" << nl;
+		}
 	}
 
 public:
@@ -75,7 +96,6 @@ int main(int argc, char const *argv[])
 	string input, ordering;
 	ordering = "Yes";
 	Booking b1;
-	Booking b2;
 	out << nl;
 	out << "       AutoCaffee - Console         " << nl;
 	out << "////////////////////////////////////" << nl;
@@ -89,7 +109,6 @@ int main(int argc, char const *argv[])
 	if (input == ordering)
 	{
 		b1.getOrder();
-		b2.cleanTime();
 
 	}
 	else if (input == "No")
@@ -106,6 +125,9 @@ int main(int argc, char const *argv[])
 		out << "<<<<<<<----------------->>>>>>>" << nl;
 		out << nl;
 	}
+
+	Booking b2;
+	b2.requestFile();
 
 	return 0;
 
