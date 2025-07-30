@@ -129,20 +129,15 @@ public:
 		out << nl;
 	}
 
-	Booking b2;
-	b2.requestFile();
-
+	b1.requestFile();
 
 	}
 
 
 };
 
-int main(int argc, char const *argv[])
+int main()
 {
-
-	Program prog;
-	prog.programStart();
+	Program().programStart();
 	return 0;
-
 }
