@@ -87,7 +87,19 @@
 |---------------|---------------------|
 | ifstream      | ofstream            | 
 | yourV.open    | std::ios::app       |
-|---------------|---------------------|
+| getline()     |                     |
+
+- ofstream:  `std::ios::app`
+```cpp
+
+private:
+    void saveToFile(){
+        ofstream file("orders.txt", std::ios::app);
+	file << fullnames << " | Order: " << drink << "\n";
+	file.close();
+}
+
+```
 
 
 
