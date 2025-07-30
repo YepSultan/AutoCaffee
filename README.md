@@ -85,8 +85,7 @@
 
 | Read the file | Open / save to file |
 |---------------|---------------------|
-| ifstream      | ofstream            |
-|---------------|---------------------| 
+| ifstream      | ofstream            | 
 | yourV.open    | std::ios::app       |
 |---------------|---------------------|
 
