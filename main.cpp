@@ -5,11 +5,6 @@
 
 using namespace std;
 
-#define in cin
-#define out cout
-#define nl endl
-
-
 // Main Body
 class Booking {
 private:
@@ -31,7 +26,7 @@ public:
 		string line;
 
 		while (getline(readFile, line)){
-			cout << line << nl;
+			cout << line << endl;
 		}
 
 		readFile.close();
@@ -39,57 +34,56 @@ public:
 public:
 	void requestFile(){
 		string answerUser;
-		out << "Show your orders? Yes/No: ";
-		in >> answerUser;
+		cout << "Show your orders? Yes/No: ";
+		cin >> answerUser;
 
 		if (answerUser == "Yes"){
-			out << "Orders: " << nl;
-			out << nl;
+			cout << "Orders: " << endl;
+			cout << endl;
 			readTheFile();
-			out << nl;
+			cout << endl;
 		}
 		else{
-			out << "Error!" << nl;
+			cout << "Good Luck" << endl;
 		}
 	}
 
 public:
 	void getOrder(){
 	
-	out << nl;
-	out << "	|---  Menu --- |" << nl;
-	out << "	|1. Iced Latte |" << nl;
-	out << "	|2. Thai Coffee|" << nl;
-	out << "	|3. Limonade   |" << nl;
-	out << "	|4. Expresso   |" << nl;
-	out << "	|5. Milk-Chocko|" << nl;
-	out << "	|---  Menu --- |" << nl;
+	cout << endl;
+	cout << "	|---  Menu --- |" << endl;
+	cout << "	|1. Iced Latte |" << endl;
+	cout << "	|2. Thai Coffee|" << endl;
+	cout << "	|3. Lemonade   |" << endl;
+	cout << "	|4. Espresso   |" << endl;
+	cout << "	|5. Milk Choco|" << endl;
+	cout << "	|---  Menu --- |" << endl;
 
-	out << nl;
-	out << "Enter your fullnam: ";
+	cout << endl;
+	cout << "Enter your fullname: ";
 	getline(cin, fullnames);
-	out << "What's your order?: ";
-	in >> orderCode;
-	out << nl;
-	in.ignore();
+	cout << "What's your order?: ";
+	cin >> orderCode;
+	cout << endl;
+	cin.ignore();
 
 	switch(orderCode) 
 	{
 		case 1: drink = "Iced Latte"; break; 
 		case 2: drink = "Thai Coffee"; break;
-		case 3: drink = "Limonade"; break;
-		case 4: drink = "Expresso"; break;
-		case 5: drink = "Milk-Chocko"; break;
+		case 3: drink = "Lemonade"; break;
+		case 4: drink = "Espresso"; break;
+		case 5: drink = "Milk Choco"; break;
 
 	}
-	out << "////////////////////////////////////" << nl;
-	out << fullnames << " | " << " Order: "<< drink << " |-- makeing --|" << nl;
-	out << "////////////////////////////////////" << nl;
+	cout << "////////////////////////////////////" << endl;
+	cout << fullnames << " | " << " Order: "<< drink << " |-- making --|" << endl;
+	cout << "////////////////////////////////////" << endl;
 
 	saveToFile();
 	}
 };
- 
 
 
 class Program {
@@ -99,15 +93,15 @@ public:
 	string input, ordering;
 	ordering = "Yes";
 	Booking b1;
-	out << nl;
-	out << "       AutoCaffee - Console         " << nl;
-	out << "////////////////////////////////////" << nl;
-	out << "/ Wanna order something? [Yes/No]: /" << nl;
-	out << "////////////////////////////////////" << nl;
-	out << nl;
-	out << "-------:: ";
-	in >> input;
-	in.ignore();
+	cout << endl;
+	cout << "       AutoCaffee - Console         " << endl;
+	cout << "////////////////////////////////////" << endl;
+	cout << "/ Wanna order something? [Yes/No]: /" << endl;
+	cout << "////////////////////////////////////" << endl;
+	cout << endl;
+	cout << "-------:: ";
+	cin >> input;
+	cin.ignore();
 
 	if (input == ordering)
 	{
@@ -116,17 +110,17 @@ public:
 	}
 	else if (input == "No")
 	{
-		out << nl;
-		out << "Thanks for coming and good luck!" << nl;
-		out << nl;
+		cout << endl;
+		cout << "Thanks for coming and good luck!" << endl;
+		cout << endl;
 	}
 	else
 	{
-		out << nl;
-		out << "<<<<<<<----------------->>>>>>>" << nl;
-		out << "It's seems like u r for looking something else :/ " << nl;
-		out << "<<<<<<<----------------->>>>>>>" << nl;
-		out << nl;
+		cout << endl;
+		cout << "<<<<<<<----------------->>>>>>>" << endl;
+		cout << "It's seems like u r for looking something else :/ " << endl;
+		cout << "<<<<<<<----------------->>>>>>>" << endl;
+		cout << endl;
 	}
 
 	b1.requestFile();

@@ -126,8 +126,16 @@ public:
 - Created `Program` class 
 - Cleaned code
 
+###📅 08.09.2025
 
+####⏱️ 2:10PM
 
+### 🔁 REFACTOR
+
+- in -> cin
+- out -> cout
+- nl -> endl
+- removed: `#define`
 
 
 
