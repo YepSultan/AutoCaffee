@@ -1,3 +1,4 @@
+
 # 🚀 AutoCaffee — Console Order System
 
 ![Preview](assets/screen_03.png)
@@ -160,4 +161,6 @@ Sultan - engineering student (self-dev)
 Project start: `21.07.2025`
 
 ---
+
+
 
