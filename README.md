@@ -127,9 +127,9 @@ public:
 - Created `Program` class 
 - Cleaned code
 
-###📅 08.09.2025
+### 📅 08.09.2025
 
-####⏱️ 2:10PM
+#### ⏱️ 2:10PM
 
 ### 🔁 REFACTOR
 
@@ -138,6 +138,14 @@ public:
 - nl -> endl
 - removed: `#define`
 
+
+---
+
+### 📅 01.10.2025
+
+#### ⏱️ 00:57AM
+
+#### I'm Back =)
 
 
 ---
