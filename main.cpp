@@ -18,6 +18,7 @@ private:
 		file << fullnames << " | Order: " << drink << "\n";
 		file.close();
 	}
+
 public:
 	void readTheFile(){
 		ifstream readFile;
@@ -31,6 +32,7 @@ public:
 
 		readFile.close();
 	}
+
 public:
 	void requestFile(){
 		string answerUser;
@@ -106,7 +108,6 @@ public:
 	if (input == ordering)
 	{
 		b1.getOrder();
-
 	}
 	else if (input == "No")
 	{
